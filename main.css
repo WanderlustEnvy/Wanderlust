@@ -61,7 +61,7 @@ body, html {
 
 /*background*/
 .bg {
-  background-image: url("/Applications/foundation-6/foundation-zurb-template-master/src/assets/img/images/Glacier_cover.jpg");
+  background-image: url("https://github.com/WanderlustEnvy/WanderlustEnvy.github.io/blob/master/Glacier_cover.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
