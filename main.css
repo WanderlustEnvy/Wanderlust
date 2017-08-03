@@ -1,0 +1,231 @@
+/* general */
+/* Nav */
+/*This is for the site title and nav bar background color */
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/*Parallax scrolling */
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/Applications/foundation-6/foundation-zurb-template-master/src/assets/img/images/zion_cover.jpg");
+  height: 70%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border{
+  background-color: #1bafc0;
+  border: solid 5px white;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.title-bar {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 75%;
+  text-align: center;
+  margin-left: 150px;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 25px;
+  letter-spacing: 10px; }
+}
+
+.title-bar span.border{
+  background-color: #fff;
+  color: #000000;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/*background*/
+.bg {
+  background-image: url("/Applications/foundation-6/foundation-zurb-template-master/src/assets/img/images/Glacier_cover.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Heebo;
+}
+
+.image-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: Heebo;
+}
+
+/* logo */
+.logo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+
+}
+
+/*Menu*/
+.menu {
+  font-size: 20px;
+  color: white;
+  background-opacity:100%;
+  float: right;
+  padding: 10px;
+}
+
+/*Navigation*/
+.top-bar-right {
+  float: right;
+}
+
+
+.menu > li > a {
+    display: block;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+   }
+
+/*Columns*/
+.row {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto; 
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.medium-4 {
+  width: 33%; }
+
+.medium-3 {
+  width: 25%;
+ }
+
+.medium-6 {width: 50%;
+}
+
+.medium-12 {width: 100%}
+
+/*Circle images and grayscale*/
+
+.img-circle {
+    height: 260px;
+    width: 260px;
+    border-radius: 130px;
+}
+
+.img-circle:hover {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+ }
+
+/*Headers*/
+h2 {text-align:center;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.background {background-image: url("/Applications/foundation-6/foundation-zurb-template-master/src/assets/img/images/IMG_4765.jpg");
+  height: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.form-name {
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  width: 75%;
+  text-align: center;
+  margin-left: 150px;
+  background-color: white;
+  border: 3px solid #000000;
+  color: #000000;
+  font-family: Arial;
+  font-size: 25px;
+  letter-spacing: 10px; }
+}
+
+.form-name span.border{
+  background-color: #fff;
+  color: #000000;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.input-group {
+  display: table;
+  width: 100%;
+  margin-bottom: 1rem; }
+
+.is-invalid-input:not(:focus) {
+  border-color: #cc4b37;
+  background-color: #f9ecea; }
+  .is-invalid-input:not(:focus)::-webkit-input-placeholder {
+    color: #cc4b37; }
+  .is-invalid-input:not(:focus)::-moz-placeholder {
+    color: #cc4b37; }
+  .is-invalid-input:not(:focus):-ms-input-placeholder {
+    color: #cc4b37; }
+  .is-invalid-input:not(:focus)::placeholder {
+    color: #cc4b37; }
+
+.is-invalid-label {
+  color: #cc4b37; }
+
+.form-error {
+  display: none;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #cc4b37; }
+  .form-error.is-visible {
+    display: block; }
+
+/*Media and other devices*/
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
